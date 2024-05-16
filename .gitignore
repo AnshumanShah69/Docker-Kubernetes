@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for storing cached packages
+.npm
+
+# Environment variables file
+.env
+
+# Production build directory
+build/
+
+# Coverage directory
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

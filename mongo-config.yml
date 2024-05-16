@@ -1,0 +1,9 @@
+#so this file is basically used to give the project the values of the env var the hostname and the portname to the index file
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-config
+data:
+  MONGO_HOST: "myservice-mongodb"
+  MONGO_PORT: "27017"
